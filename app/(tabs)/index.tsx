@@ -11,6 +11,7 @@ import Person from './Person';
 import ItemList from './ItemList';
 import UserProfile from './UserProfile';
 import ToggleComponent from './ToggleComponent';
+import InputWithValidation from './InputWithValidation';
 
 export default function HomeScreen() {
   return (
@@ -25,6 +26,7 @@ export default function HomeScreen() {
       <ItemList></ItemList>
       <UserProfile></UserProfile>
       <ToggleComponent></ToggleComponent>
+      <InputWithValidation></InputWithValidation>
     </View>
   );
 };
