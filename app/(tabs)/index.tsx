@@ -10,19 +10,21 @@ import NameInput from './NameInput';
 import Person from './Person';
 import ItemList from './ItemList';
 import UserProfile from './UserProfile';
+import ToggleComponent from './ToggleComponent';
 
 export default function HomeScreen() {
   return (
     <View>
-      <MyComponent />
-      <ConditionalComponent></ConditionalComponent>
-      <Button></Button>
+      {/*<MyComponent />
+      <ConditionalComponent></ConditionalComponent> 
+      <Button></Button>*/}
       <Profile name="Illia" age={17} occupation="Ukraine"></Profile>
       <Counter></Counter>
       <NameInput></NameInput>
       <Person></Person>
       <ItemList></ItemList>
       <UserProfile></UserProfile>
+      <ToggleComponent></ToggleComponent>
     </View>
   );
 };
