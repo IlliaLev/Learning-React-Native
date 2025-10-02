@@ -12,6 +12,7 @@ import ItemList from './ItemList';
 import UserProfile from './UserProfile';
 import ToggleComponent from './ToggleComponent';
 import InputWithValidation from './InputWithValidation';
+import TodoList from './TodoList';
 
 export default function HomeScreen() {
   return (
@@ -19,7 +20,7 @@ export default function HomeScreen() {
       {/*<MyComponent />
       <ConditionalComponent></ConditionalComponent> 
       <Button></Button>*/}
-      <Profile name="Illia" age={17} occupation="Ukraine"></Profile>
+      {/*<Profile name="Illia" age={17} occupation="Ukraine"></Profile>
       <Counter></Counter>
       <NameInput></NameInput>
       <Person></Person>
@@ -27,6 +28,8 @@ export default function HomeScreen() {
       <UserProfile></UserProfile>
       <ToggleComponent></ToggleComponent>
       <InputWithValidation></InputWithValidation>
-    </View>
+        */}
+      <TodoList></TodoList>
+      </View>
   );
 };
