@@ -16,6 +16,7 @@ import TodoList from './TodoList';
 import ColorChanger from './ColorChanger';
 import CounterMinMax from './CounterMinMax';
 import FormComponent from './FormComponent';
+import Greeting from './Greeting';
 
 export default function HomeScreen() {
   return (
@@ -34,6 +35,8 @@ export default function HomeScreen() {
       <ColorChanger></ColorChanger>
       <CounterMinMax></CounterMinMax>
       <FormComponent></FormComponent>
+      <Greeting name='Illia' age={17}></Greeting>
+      <Greeting name='Illia' ></Greeting>
         */}
       <TodoList></TodoList>
       
