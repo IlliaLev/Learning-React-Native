@@ -14,6 +14,7 @@ import ToggleComponent from './ToggleComponent';
 import InputWithValidation from './InputWithValidation';
 import TodoList from './TodoList';
 import ColorChanger from './ColorChanger';
+import CounterMinMax from './CounterMinMax';
 
 export default function HomeScreen() {
   return (
@@ -29,9 +30,10 @@ export default function HomeScreen() {
       <UserProfile></UserProfile>
       <ToggleComponent></ToggleComponent>
       <InputWithValidation></InputWithValidation>
+      <ColorChanger></ColorChanger>
         */}
       <TodoList></TodoList>
-      <ColorChanger></ColorChanger>
+      <CounterMinMax></CounterMinMax>
       </View>
   );
 };
