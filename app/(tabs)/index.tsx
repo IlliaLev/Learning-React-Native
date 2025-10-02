@@ -13,6 +13,7 @@ import UserProfile from './UserProfile';
 import ToggleComponent from './ToggleComponent';
 import InputWithValidation from './InputWithValidation';
 import TodoList from './TodoList';
+import ColorChanger from './ColorChanger';
 
 export default function HomeScreen() {
   return (
@@ -30,6 +31,7 @@ export default function HomeScreen() {
       <InputWithValidation></InputWithValidation>
         */}
       <TodoList></TodoList>
+      <ColorChanger></ColorChanger>
       </View>
   );
 };
