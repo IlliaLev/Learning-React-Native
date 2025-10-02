@@ -19,6 +19,17 @@ import FormComponent from './FormComponent';
 import Greeting from './Greeting';
 
 export default function HomeScreen() {
+  const user = {
+    city: "Anytown",
+    street: "123 Main St",
+  };
+
+  const skills = ["Js", "C++", "Python"];
+
+  const handleGreet = () => {
+    alert("Hello");
+  };
+
   return (
     <View>
       {/*<MyComponent />
@@ -37,6 +48,7 @@ export default function HomeScreen() {
       <FormComponent></FormComponent>
       <Greeting name='Illia' age={17}></Greeting>
       <Greeting name='Illia' ></Greeting>
+      <Profile name='John' age={30} isEmployed={true} skills={skills} address={user} greet={handleGreet}></Profile>
         */}
       <TodoList></TodoList>
       
